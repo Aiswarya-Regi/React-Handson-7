@@ -30,7 +30,7 @@ if(id){  // for updating the existing student, first checking whether the id exi
     setCurrentStudentDetails(currentObj); // setting currentObj in state
   }
 }
-  },[id])
+  },[id,studentDetails])
 
   const changeStudentDetails = (e,key) =>{
   setCurrentStudentDetails(prevState =>{
